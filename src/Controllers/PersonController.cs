@@ -64,7 +64,7 @@ namespace src.Controllers
             try
             {
                 _context.People.Add(person);
-                _context.SaveChanges();
+                _context.SaveChangesAsync();
             }
             catch (System.Exception)
             {
@@ -94,7 +94,7 @@ namespace src.Controllers
             try
             {
                 _context.People.Update(person);
-                _context.SaveChanges();
+                _context.SaveChangesAsync();
             }
             catch (System.Exception)
             {
@@ -125,7 +125,7 @@ namespace src.Controllers
                 });
 
             _context.People.Remove(result);
-            _context.SaveChanges();
+            _context.SaveChangesAsync();
 
 
             return Ok(new
