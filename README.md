@@ -1,4 +1,4 @@
-# Insurance Company API Dotnet With EF Core 🦄
+# Insurance Company API - Dotnet With EF Core 🦄
 Uma API desenvolvida visando um maior controle sobre contratos e clientes, sendo utilizado tecnologias recentes do .NET, C# e EF Core com um banco em memória, podendo ser substituído confome a necessidade. API desenvolvida na dev week Pottencial, na dio. 
 
 ## Tecnologias utilizadas ⚙
